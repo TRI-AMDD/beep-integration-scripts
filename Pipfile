@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+cython = "*"
+pymssql = "==2.1.1"
+yapf = "*"
+"flake8" = "*"
+pytest = "*"
+pandas = "==0.22.0"
+memory-profiler = "*"
+xlrd = "*"
+mypy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
